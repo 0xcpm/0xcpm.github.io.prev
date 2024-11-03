@@ -53,11 +53,41 @@ a:visited { color: green; }
 a:hover { color: #f28500; }
 a:active { color: #ff00ff; }
 
+/* Image Gallery Container */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap; /* Allows images to wrap to the next line */
+  justify-content: center; /* Center images in the container */
+  gap: 20px; /* Space between images */
+  padding: 20px;
+  background: var(--color-bg);
+}
+
+/* Individual Image Containers */
+.image-container {
+  flex: 1 1 250px; /* Each image container takes at least 250px and can grow */
+  max-width: 300px; /* Optional: max width for each image container */
+  display: flex;
+  justify-content: center; /* Center the image inside the container */
+  padding: 3px; /* Padding around the images */
+}
+
+/* Image attributes */
+img {
+  width: 100%; /* Ensure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+
+
+
+
 #menuToggle
 {
   display: block;
   position: relative;
-  top: 50px;
+  top: 30px;
   left: 50px;
   color: var(--color-text);
 
@@ -141,8 +171,8 @@ a:active { color: #ff00ff; }
  */#menu
 {
   position: absolute;
-  width: 180px;
-  height: 3333px;
+  width: 225px;
+  height: 100vh;
   margin: -100px 0 0 -60px;
   padding: 50px;
   padding-top: 125px;
