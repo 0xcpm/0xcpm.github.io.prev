@@ -28,31 +28,46 @@ body
 .info-square {
   background: var(--color-text)
 }
-/* Image Gallery Container */
+/* Container for the image gallery */
+/* Container for the image gallery */
 .image-gallery {
-  display: flex;
-  flex-wrap: wrap; /* Allows images to wrap to the next line */
-  justify-content: center; /* Center images in the container */
-  gap: 20px; /* Space between images */
+  display: grid;
+  gap: 20px; /* Space between items */
   padding: 20px;
   background: var(--color-bg);
+  
+  /* Default to a single column */
+  grid-template-columns: 1fr;
 }
 
-/* Individual Image Containers */
+/* Responsive grid layout */
+@media (min-width: 768px) {
+  /* On medium screens, show up to 2 columns */
+  .image-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  /* On large screens, show up to 3 columns */
+  .image-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Individual image container */
 .image-container {
-  flex: 1 1 250px; /* Each image container takes at least 250px and can grow */
-  max-width: 300px; /* Optional: max width for each image container */
   display: flex;
-  justify-content: center; /* Center the image inside the container */
-  padding: 3px; /* Padding around the images */
+  justify-content: center;
+  padding: 3px;
 }
 
-/* Image attributes */
-img {
-  width: 100%; /* Ensure images are responsive */
+.image-container img {
+  width: 100%; /* Make images responsive */
   height: auto; /* Maintain aspect ratio */
   border-radius: 10px; /* Optional: rounded corners */
 }
+
 
 #footer {
   position: absolute;
