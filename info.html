@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>info</title>
-    <LINK TYPE="text/css" REL="stylesheet" HREF="style.css">
+    <link type="text/css" rel="stylesheet" href="style.css">
 
     <style>
         /* General Body Style */
@@ -19,8 +19,6 @@
             background-color: #f1f1f1;
             position: relative;
         }
-
-       
 
         /* Square Container Style */
         .info-square {
@@ -49,11 +47,27 @@
         .info-square:hover {
             cursor: pointer;
         }
+
+        /* Back Button Style */
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #000000; /* Blue color */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none; /* Remove underline */
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
     </style>
 </head>
 <body>
-
-   
 
     <!-- Clickable Information Squares -->
     <a class="info-square">
@@ -72,6 +86,9 @@
             <p>la heather festival | 2024</p>
         </div>
     </a>
+
+    <!-- Back Button -->
+    <a href="home.html" class="back-button">back</a>
 
     <script src="script.js"></script>
 </body>
