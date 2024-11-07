@@ -96,7 +96,7 @@ body
   --color-table-row-header: #e8e6e6;
   --color-table-row-odd: #fbfbfb;
   --color-toggle-accent: #ff7900;
-  --color-text: #333;
+  --color-text: #073642;
 )}
 
 /*
@@ -115,7 +115,7 @@ html.dark {
   --color-table-row-header: #000;
   --color-table-row-odd: #333333;
   --color-toggle-accent: #a076ce;
-  --color-text: #fafafa;
+  --color-text: #93A1A1;
 }
 
 
