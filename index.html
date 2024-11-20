@@ -32,16 +32,21 @@ if (parent.frames.length > 0) {
 </SCRIPT>
 
 
-<div id="color-mode-switch">
-  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-  </svg>
-  <input type="checkbox" id="switch" />
-  <label for="switch">Dark Mode Toggle</label>
-  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-  </svg>
-</div>
+
+
+
+<nav class="navbar">
+  <div class="menu-icon" id="menu-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html">home</a></li>
+    <li><a href="about.html">about</a></li>
+    <li><a href="contact.html">contact</a></li>
+  </ul>
+</nav>
 
 <!-- Replace table with a div container -->
 <div class="image-gallery">
@@ -51,7 +56,9 @@ if (parent.frames.length > 0) {
     <div class="image-container">
       <A HREF="files/42.webp" TITLE="42.webp" NAME="42.webp"><IMG SRC="files/42.webp" WIDTH="433" HEIGHT="650" ALT="42.webp"></A>
     </div>
-    
+     <div class="image-container">
+      <A HREF="files/24.jpg" TITLE="24.jpg" NAME="24.jpg"><IMG SRC="files/24.jpg" WIDTH="433" HEIGHT="650" ALT="24.jpg"></A>
+    </div>
     <div class="image-container">
       <A HREF="files/l.webp" TITLE="l.webp" NAME="l.webp"><IMG SRC="files/l.webp" WIDTH="433" HEIGHT="650" ALT="l.webp"></A>
     </div>
