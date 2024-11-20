@@ -55,8 +55,8 @@ body
   flex-direction: column;
   gap: 4px;
   cursor: pointer;
-  width: 30px; /* Set the square dimensions */
-  height: 30px; /* Same as width */
+  width: 42px; /* Set the square dimensions */
+  height: 42px; /* Same as width */
   justify-content: center; /* Center the bars vertically */
   align-items: center; /* Center the bars horizontally */
   background: var(--color-bg); /* Optional: background color for clarity */
@@ -129,7 +129,7 @@ body
 .image-gallery {
   display: grid;
   gap: 20px; /* Space between items */
-  padding: 30px;
+  padding: 50px;
   background: var(--color-bg);
   
   /* Default to a single column */
