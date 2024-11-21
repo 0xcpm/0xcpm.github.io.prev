@@ -101,6 +101,7 @@ body
 }
 
 /* Hide the menu icon on larger screens */
+
 @media (min-width: 769px) {
   .menu-icon {
     display: none; /* Hide the hamburger menu */
@@ -120,11 +121,6 @@ body
 }
 
 
-
-.info-square {
-  background: var(--color-text)
-}
-/* Container for the image gallery */
 /* Container for the image gallery */
 .image-gallery {
   display: grid;
@@ -178,111 +174,10 @@ body
   Color Scheme Toggle Switch
   - Styled checkbox with slight animation when toggling
 */
-/*
-  Light Mode Color Scheme
+/*Color Scheme
 */
 :root {
-  --color-anchor: #337ab7;
   --color-bg: #0D1117;
-  --color-blockquote-text: #777;
-  --color-code-bg: #f7f7f7;
-  --color-code-text: #ffffff;
-  --color-divider: #cdcdcd;
-  --color-heading: #333;
-  --color-table-border: #c2c2c2;
-  --color-table-row-even: #f0f0f0;
-  --color-table-row-header: #e8e6e6;
-  --color-table-row-odd: #fbfbfb;
-  --color-toggle-accent: #ff7900;
   --color-text: #ffffff;
 )}
 
-/*
-  Dark Mode Color Scheme
-*/
-html.dark {
-  --color-anchor: #77e1cd;
-  --color-bg: #002B36;
-  --color-blockquote-text: #c0bcbc;
-  --color-code-bg: #313030;
-  --color-code-text: #fefefe;
-  --color-divider: #8b8b8b;
-  --color-heading: #dfdfdf;
-  --color-table-border: #767676;
-  --color-table-row-even: #181818;
-  --color-table-row-header: #000;
-  --color-table-row-odd: #333333;
-  --color-toggle-accent: #a076ce;
-  --color-text: #93A1A1;
-}
-
-
-
-
-#color-mode-switch {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  background-color: var(--color-bg);
-  
-}
-
-#color-mode-switch > span {
-  font-size: 30px;
-  display: inline-block;
-  margin-right: 8px;
-}
-
-#color-mode-switch svg {
-  width: 24px;
-  height: 24px;
-  margin: 0 4px;
-}
-
-#color-mode-switch input[type=checkbox] {
-  height: 0;
-  width: 0;
-  visibility: hidden;
-}
-
-#color-mode-switch label {
-  cursor: pointer;
-  text-indent: -9999px;
-  width: 42px;
-  height: 21px;
-  border-radius: 30px;
-  background: var(--color-toggle-accent);
-  display: block;
-  position: relative;
-  margin: 0;
-}
-
-#color-mode-switch label:after {
-  content: '';
-  position: absolute;
-  top: 3px;
-  left: 3px;
-  width: 15px;
-  height: 15px;
-  background: #fff;
-  border-radius: 90px;
-  transition: 0.3s;
-}
-
-#color-mode-switch input:checked + label:after {
-  left: calc(100% - 3px);
-  transform: translateX(-100%);
-}
-
-#color-mode-switch label:active:after {
-  width: 30px;
-}
-//*
-  Apply colors to general doc selectors
-*/
-html, body {
-  background-color: var(--color-bg);
-  color: var(--color-text);
-}
-
-/*
