@@ -11,12 +11,12 @@ body
 }
 
 @font-face {
-    font-family: "bcbd";
-    src: url(extras/bcbd.ttf);
-}
-@font-face {
     font-family: "J24";
     src: url(extras/J24.ttf);
+}
+@font-face {
+    font-family: "OCRA";
+    src: url(extras/OCRA.ttf);
 }
 
 /* Navbar styles */
