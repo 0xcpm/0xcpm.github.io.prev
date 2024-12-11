@@ -11,8 +11,8 @@ body
 }
 
 @font-face {
-    font-family: "J24";
-    src: url(extras/J24.ttf);
+    font-family: "bcbd";
+    src: url(extras/bcbd.ttf);
 }
 @font-face {
     font-family: "OCRA";
@@ -41,7 +41,7 @@ body
 .nav-links li a {
   text-decoration: none;
   color: var(--color-text);
-  font-family: "J24";
+  font-family: "bcbd";
   font-size: 50px;
 }
 
