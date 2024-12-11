@@ -7,7 +7,7 @@ body
   /* make it look decent enough */
   background: var(--color-bg);
   color: var(--color-text);
-  font-family: "OCRA";
+  font-family: "Iosevka";
 }
 
 @font-face {
@@ -15,8 +15,8 @@ body
     src: url(extras/bcbd.ttf);
 }
 @font-face {
-    font-family: "OCRA";
-    src: url(extras/OCRA.ttf);
+    font-family: "Iosevka";
+    src: url(extras/Iosevka.ttf);
 }
 
 /* Navbar styles */
