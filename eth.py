@@ -35,8 +35,8 @@ for frame in range(frames):
     ax.set_ylim(-2, 2)
 
     # Set background color to #Fdf6e3 (light off-white)
-    fig.patch.set_facecolor('#839496')
-    ax.set_facecolor('#839497')
+    fig.patch.set_facecolor('#000000')
+    ax.set_facecolor('#000000')
 
     # Calculate the swinging angle with a higher speed
     angle = swing_amplitude * np.sin(swing_speed * frame * 2 * np.pi / frames)
@@ -46,8 +46,8 @@ for frame in range(frames):
     rotated_plumbob = np.dot(plumbob_shape, rotation_matrix)
     rotated_central_edge = np.dot(central_edge, rotation_matrix)
 
-    # Plot the plumbob shape and the central edge with only the edge in color #073642
-    plot_shape(ax, rotated_plumbob, rotated_central_edge, color='#073642')
+    # Plot the plumbob shape and the central edge with only the edge in color #ffffff
+    plot_shape(ax, rotated_plumbob, rotated_central_edge, color='#ffffff')
 
     # Turn off the axes
     ax.set_axis_off()
