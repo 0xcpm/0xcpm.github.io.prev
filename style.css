@@ -11,8 +11,8 @@ body
 }
 
 @font-face {
-    font-family: "bcbd";
-    src: url(extras/bcbd.ttf);
+    font-family: "Jacquard";
+    src: url(extras/Jacquard24Charted-Regular.ttf);
 }
 @font-face {
     font-family: "Iosevka";
@@ -41,7 +41,7 @@ body
 .nav-links li a {
   text-decoration: none;
   color: var(--color-text);
-  font-family: "bcbd";
+  font-family: "Jacquard";
   font-size: 50px;
 }
 
@@ -60,8 +60,7 @@ body
   justify-content: center; /* Center the bars vertically */
   align-items: center; /* Center the bars horizontally */
   background: var(--color-bg); /* Optional: background color for clarity */
-  border: 2px solid var(--color-text); /* Optional: border to emphasize square shape */
-  border-radius: 4px; /* Optional: slight rounding for aesthetics */
+ 
 }
 
 .menu-icon span {
