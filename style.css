@@ -176,17 +176,7 @@ body
   Light Mode Color Scheme
 */
 :root {
-  --color-anchor: #337ab7;
   --color-bg: white;
-  --color-blockquote-text: #777;
-  --color-code-bg: #f7f7f7;
-  --color-code-text: #333;
-  --color-divider: #cdcdcd;
-  --color-heading: #333;
-  --color-table-border: #c2c2c2;
-  --color-table-row-even: #f0f0f0;
-  --color-table-row-header: #e8e6e6;
-  --color-table-row-odd: #fbfbfb;
   --color-toggle-accent: #ff7900;
   --color-text: black;
 )}
@@ -195,17 +185,7 @@ body
   Dark Mode Color Scheme
 */
 html.dark {
-  --color-anchor: #77e1cd;
   --color-bg: black;
-  --color-blockquote-text: #c0bcbc;
-  --color-code-bg: #313030;
-  --color-code-text: #fefefe;
-  --color-divider: #8b8b8b;
-  --color-heading: #dfdfdf;
-  --color-table-border: #767676;
-  --color-table-row-even: #181818;
-  --color-table-row-header: #000;
-  --color-table-row-odd: #333333;
   --color-toggle-accent: #6c71c4;
   --color-text: white;
 }
