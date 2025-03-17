@@ -2,6 +2,7 @@ body
 {
   margin-right: 2500px;
   padding: 0;
+  padding-top: 10px;
   width: 97%;
   height: 100vh;
   /* make it look decent enough */
@@ -123,7 +124,7 @@ body
 .image-gallery {
   display: grid;
   gap: 20px; /* Space between items */
-  padding: 50px;
+  padding: 30px;
   background: var(--color-bg);
   
   /* Default to a single column */
