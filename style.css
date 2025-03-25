@@ -212,6 +212,7 @@ html.dark {
   width: 24px;
   height: 24px;
   margin: 0 4px;
+  padding-left: 12px;
 }
 
 #color-mode-switch input[type=checkbox] {
